@@ -1,0 +1,55 @@
+<html lang="en-au">
+
+<title>Make elements focusable | CanberraJS</title>
+
+<head>
+
+<style>
+
+body
+{
+font-family:arial;
+}
+
+a
+{
+display:block;
+padding:20px;
+}
+
+a:focus
+{
+background-color:#094960;
+color:white;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>2. Make elements focusable from the keyboard</h1>
+
+Use the TAB key to move through the following collection of links to understand how setting the tabindex can alter how it appears in the keyboard tab ordering sequence.
+
+<h2>Default tabindex</h2>
+<p>The below links use the default tabindex which is the same as their onscreen position.</p>
+
+<a href="http://www.canaxess.com.au">CANAXESS homepage</a>
+<a href="https://www.canaxess.com.au/services/audit/">Web accessibility audit</a>
+<a href="https://www.canaxess.com.au/contact">Contact Us</a>
+<a href="https://www.canaxess.com.au/infocard/home">Free accessibility information cards</a>
+
+<h2>Artificially set tabindex</h2>
+<p>This link has a tabindex artificially set to 1 which makes it appear as the first item in the keyboard tab sequence even though it's the second to last link.</p>
+
+<a href="https://www.canaxess.com.au/about" tabindex="1">About Us</a>
+
+<p>This link has a tabindex artificially set to 1010 which makes it appear as the second item in the keyboard tab sequence even though it's the last link.</p>
+
+<a href="https://www.canaxess.com.au/services" tabindex="1010">Accessibility services</a>
+
+</body>
+</html>
