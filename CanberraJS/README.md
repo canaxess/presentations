@@ -5,7 +5,7 @@ All code is technology neutral and is displayed in HTML and CSS.
 1. [Updates need to be announced](), understand how using the `aria-live` attribute can help screen reader users understand dynamic changes in the content.
 ## Suggested downloads and further information ##
 * Download [NVDA Screen reader](https://www.nvaccess.org/download/)
-* Read how to use [the accessibility pane](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference#pane) in Chrome and interpret the accessibility tree.
+* Understand how to use [the accessibility pane](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference#pane) in Chrome and interpret the accessibility tree.
 ## NVDA 2018.2.1 and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
