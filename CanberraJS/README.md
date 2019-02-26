@@ -5,3 +5,9 @@
 ## Suggested downloads and further information ##
 * Download [NVDA Screen reader](https://www.nvaccess.org/download/)
 * Read how to use [the accessibility pane](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference#pane) in Chrome and interpret the accessibility tree.
+## NVDA 2018.2.1 and User Agent compatibility ##
+
+&nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
+:-------------: |:-------------:| :-----:| :-----:| :-----:
+`tabindex`    | ? | ? | ? | ?
+`aria-live`    | ? | ? | ? | ?
