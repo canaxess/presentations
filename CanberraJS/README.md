@@ -12,4 +12,5 @@ All code is technology neutral and is displayed in HTML and CSS.
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `tabindex`    | YES | YES | YES | NO*
 `aria-live`    | ? | ? | ? | ?
-* Firefox Quantum defaults to the first link on load, this requires further investigation
+
+*Firefox Quantum defaults to the first link on load, this requires further investigation
