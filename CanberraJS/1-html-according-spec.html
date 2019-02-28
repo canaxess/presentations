@@ -1,0 +1,66 @@
+<html lang="en-au">
+
+<title>HTML according to specifications | CanberraJS</title>
+
+<head>
+
+<style>
+
+body
+{
+font-family:arial;
+}
+
+a
+{
+display:block;
+padding:20px;
+}
+
+a:focus
+{
+background-color:#094960;
+color:white;
+font-weight:bold;
+}
+
+span
+{
+background-color:#08475e;
+color:white;
+padding:5px;
+}
+
+div
+{
+background-color:#fb9b27;
+color:black;
+padding:5px;
+width:150px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>1. Write HTML according to specifications</h1>
+
+<h2>Fake button created from a SPAN element</h2>
+<p>The SPAN element has an aria role and tabindex added</p>
+
+<span role="button" tabindex="0" onclick="alert('This faux button has been clicked')">click me</span>
+
+<h2>Fake button created from a DIV element</h2>
+<p>The DIV element has an aria role and tabindex added</p>
+
+<div role="button" tabindex="0" onclick="alert('This faux button has been clicked')">click me</div>
+
+<h2>Button element</h2>
+
+<p>The button element has role and tabindex behaviour as default</p>
+<button onclick="alert('This real button has been clicked')">click me</button>
+
+</body>
+</html>
