@@ -1,0 +1,39 @@
+<html lang="en-au">
+
+<title>Updates need to be announced | CanberraJS</title>
+
+<head>
+
+<script>
+
+function alertme()
+{
+  var div = document.getElementById('liveregion');
+  div.innerHTML = 'Content updated';
+}
+
+</script>
+
+<style>
+
+body
+{
+  font-family:arial;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>3. Updates need to be announced</h1>
+
+<div id="liveregion" aria-live="polite">
+Click the button to hear the announcement through the screen reader.
+</div>
+
+<button onclick="alertme()">click me</button>
+
+</body>
+</html>
