@@ -19,7 +19,7 @@ When the button is clicked the `DIV` element which has aria live region attribut
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
 :-------------: |:-------------:| :-----:| :-----:| :-----:
-`aria-live`    | ? | ? | YES | ?
+`aria-live`    | YES | NO | YES | YES
 
 <sup>i</sup>NVDA version 2018.2.1<br>
 
