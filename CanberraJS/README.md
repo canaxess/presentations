@@ -13,8 +13,6 @@ When the button is clicked the `DIV` element which has aria live region attribut
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `tabindex`    | YES | YES | YES | NO*
 
-*Firefox Quantum defaults to the first link on load
-
 ## NVDA<sup>i</sup> and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
@@ -22,6 +20,7 @@ When the button is clicked the `DIV` element which has aria live region attribut
 `aria-live`    | YES | NO | YES | YES
 
 <sup>i</sup>NVDA version 2018.2.1<br>
+*Firefox Quantum defaults to the first link on load
 
 ## Suggested downloads ##
 * [NVDA Screen reader](https://www.nvaccess.org/download/)
