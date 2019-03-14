@@ -12,6 +12,14 @@ function alertme()
   div.innerHTML = 'Content updated';
 }
 
+function alertmeassertively()
+{
+  var div1 = document.getElementById('liveregion1');
+  var div2 = document.getElementById('liveregion2');
+  div1.innerHTML = 'Content updated in DIV1';
+  div2.innerHTML = 'Content updated in DIV2';
+}  
+  
 </script>
 
 <style>
@@ -33,7 +41,17 @@ body
 Click the button to hear the announcement through the screen reader.
 </div>
 
-<button onclick="alertme()">click me</button>
+<div id="liveregion1" aria-live="assertive">
+Assertive live region 1
+</div>  
+
+<div id="liveregion2" aria-live="assertive">
+Assertive live region 2
+</div>  
+  
+<button onclick="alertme()">click me</button> One polite live region
+  <br>
+<button onclick="alertmeassertively()">click me</button> Two assertive live regions triggered simultaneously
 
 </body>
 </html>
