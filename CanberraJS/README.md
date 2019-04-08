@@ -16,13 +16,13 @@ From CanberraJS questions - Two live regions updating simultaneoulsy.
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `tabindex`    | YES | YES | YES | NO*
 
-## NVDA<sup>i</sup> and User Agent compatibility ##
+## NVDA and User Agent compatibility ##
 
 &nbsp;        | Internet Explorer 11 | Edge | Chrome 72 | FireFox Quantum 65
 :-------------: |:-------------:| :-----:| :-----:| :-----:
 `aria-live`    | YES | NO | YES | YES
 
-<sup>i</sup>NVDA version 2018.2.1<br>
+NVDA version 2018.2.1<br>
 *Firefox Quantum defaults to the first link on load
 
 ## Suggested downloads ##
