@@ -9,4 +9,4 @@ Accessibility is hard, we know what web accessibility is but trying to apply tec
 ## Useful links
 * [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
 * [Colour Contrast Determinator](https://www.visionaustralia.org/services/digital-access/resources/colour-contrast-determinator)
-* [NVDA screen reader](https://www.nvaccess.org/download/)
+* [NVDA screen reader](https://www.nvaccess.org/download/) version 2019.1.1
