@@ -1,0 +1,30 @@
+<html lang="en-au">
+
+<title>Conveying a warning or error | DDD Melbourne By Night</title>
+
+<head></head>
+
+<script>
+
+var timeVar = setTimeout(statusMessage, 5000);
+
+function statusMessage()
+{
+	const status = document.getElementById('status');
+	status.innerText = "There's been a problem";
+}
+
+</script>
+
+<body>
+
+<h1>Conveying a warning or error</h1>
+
+<div id="status" role="alert"></div>
+
+<p>
+This text is being buffered to the screen reader to understand how aria live regions with a role of alert (triggered 5 seconds after the page has loaded) affect the buffered text being spoken.
+</p>
+
+</body>
+</html>

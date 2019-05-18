@@ -1,0 +1,30 @@
+<html lang="en-au">
+
+<title>Conveying the progression of a process | DDD Melbourne By Night</title>
+
+<head></head>
+
+<script>
+
+var timeVar = setTimeout(statusMessage, 5000);
+
+function statusMessage()
+{
+	const status = document.getElementById('status');
+	status.innerText = "08:03 UserX logged off";
+}
+
+</script>
+
+<body>
+
+<h1>Conveying the progression of a process</h1>
+
+<div id="status" role="log"></div>
+
+<p>
+This text is being buffered to the screen reader to understand how aria live regions with a role of log (triggered 5 seconds after the page has loaded) affect the buffered text being spoken.
+</p>
+
+</body>
+</html>
