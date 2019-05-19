@@ -13,13 +13,14 @@ Testing how effectively screen readers follow the expected [ARIA live region rol
 NVDA version 2018.2.1<br>
 
 ## Mobile device compatibility ##
-&nbsp;        | VoiceOver iOS
-:-------------: |:-------------:
-`role="status"`    | YES
-`role="alert"`    | YES
-`role="log"`    | YES
+&nbsp;        | VoiceOver iOS |TalkBack Android
+:-------------: |:-------------: |:-------------:
+`role="status"`    | YES | YES
+`role="alert"`    | YES | YES
+`role="log"`    | YES | YES
 
 iOS version 12.2 iPad mini 2<br>
+Android version 8.0 HTC 10
 
 ## Demo pages ##
 All examples have content added to the live region 5 seconds after the page has loaded.
