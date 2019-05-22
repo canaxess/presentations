@@ -34,8 +34,9 @@ NVDA version 2018.2.1<br>
 iOS version 12.2 iPad mini 2<br>
 Android version 8.0 HTC 10
 
-
-
 ## Useful links
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1 / live region roles](https://www.w3.org/TR/wai-aria-1.1/#live_region_roles)
 * [NVDA screen reader](https://www.nvaccess.org/download/) version 2019.1.1
+
+## SlideShare link
+[Creating Website Status Updates for the Blind, the Bold and the Beautiful](https://www.slideshare.net/RossMullen2/creating-website-status-updates-for-the-blind-the-bold-and-the-beautiful)
