@@ -2,7 +2,7 @@
 
 Blazor is no different than any other framework for accessibility. It doesn’t make any web application any more or less accessible, but you still need to actively put in accessibility support.
 
-## Brief recap on accessibility
+## Brief Recap on Accessibility
 Web Content Accessibility Guidelines (WCAG) is an accepted best practice way of making web content accessible. It's technology agnostic but ultimately presents solutions in HTML, CSS and Javascript. 
 
 WCAG 2.1 has 3 levels of conformance (A, AA, AAA) which correspond to the degree of technical difficulty and user support.
@@ -63,4 +63,5 @@ function IDFocus(varID)
 By applying this technique to all components which trigger the display of new UI content means the screen focus is always in synch with the content
 
 ---
-In need of accessibility support? [reach out to us](https://www.canaxess.com.au/):wave:
+In need of accessibility support? [reach out to us](https://www.canaxess.com.au/contact):wave:
+**CANAXESS** :heart: A11y
