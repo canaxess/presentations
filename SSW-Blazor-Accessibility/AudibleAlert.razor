@@ -1,0 +1,42 @@
+<h3>Alert Component</h3>
+
+@if (IsCustomLiveRegion)
+{
+    <div aria-live="@Assertiveness" aria-atomic="@AnnounceWhole" aria-relevant="@WhatChanges">message</div>
+}
+else
+{
+    switch ((MessageType).ToLower())
+    {
+        case "log":
+            <div role="log" aria-live="polite">log</div>
+            break;
+        case "status":
+            <div role="status" aria-live="polite" aria-relevant="@WhatChanges">status</div>
+            break;
+        case "alert":
+            <div role="alert" aria-live="assertive" aria-relevant="@WhatChanges">alert</div>
+            break;
+    }
+}
+
+@code
+{
+    [Parameter]
+    public bool IsCustomLiveRegion { get; set; }
+
+    [Parameter]
+    public string WhatChanges { get; set; }
+    //allowed values are additions, removals, text, all
+
+    [Parameter]
+    public string AnnounceWhole { get; set; }
+
+    [Parameter]
+    public string MessageType { get; set; }
+    //allowed values are log, status, alert
+
+    [Parameter]
+    public string Assertiveness { get; set; }
+    //allowed values are assertive, polite
+}
