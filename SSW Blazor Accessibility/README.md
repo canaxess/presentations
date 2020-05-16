@@ -14,10 +14,10 @@ By sticking with regular HTML controls and components  apps are already more acc
 * Add mouse **AND** keyboard event handlers
 * Add CSS focus effects
 
-## The difficulty with 3rd party control suites
+## The Difficulty With 3rd Party Control Suites
 The accessibility statements vendors provide are often so narrowly defined and superficial that the accessibility support provided is extremely limited and, in some instances, non-existent.
 
-**You cant rely on the vendor accessibility confromance claim. If you do use custom controls:**
+**You cant rely on the vendor accessibility conformance claim. If you do use custom controls:**
 * [Independently verify its has accessibility support](https://www.canaxess.com.au/services/audit/)
 * Request information if the controls have been tested with a screen reader
 * Request information if the controls have been tested with a user wtih disabilities
