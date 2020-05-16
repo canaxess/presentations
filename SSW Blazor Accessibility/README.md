@@ -32,4 +32,20 @@ Managing focus is crucial to making it easier for keyboard users to navigate aro
 
 Programmatically managing the focus means when new content is loaded and we want the user to interact with it, the focus is manually moved. The user does not have to worry about tabbing to the new content as its already there, and it has reduced a potential keyboard accessibility navigation problem.
 
+```csharp
+protected override async Task OnAfterRenderAsync(bool firstRender)
+{
+  await jsRuntime.InvokeAsync<object>("IDfocus", headingID);
+}
+```
+
 Javascript is called from within a Razor component from the `OnAfterRenderAsync` lifecycle method to focus any named element on the page using `getElementById()`.
+
+```javascript
+//script.js
+
+function IDFocus(varID)
+{
+	document.getElementById(varID).focus();
+}
+````
