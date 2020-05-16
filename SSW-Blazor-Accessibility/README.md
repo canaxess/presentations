@@ -2,6 +2,19 @@
 
 Blazor is no different than any other framework for accessibility. It doesn’t make any web application any more or less accessible, but you still need to actively put in accessibility support.
 
+## In This Repository
+**AudibleAlert.razor** demonstrates how to use the WCAG 2.1 alert roles for predefined alerts or use the aria attributes `aria-atomic` and `aria-relevant` for more granular control.
+
+**How to call component**
+```html
+<AudibleAlert IsCustomLiveRegion="false" MessageType="alert"/> //alert, status, log
+```
+
+**Granular control**
+```html
+<AudibleAlert IsCustomLiveRegion="true" Assertivness="assertive" AnnounceWhole="false" WhatChanges="additions"/>
+```
+
 ## Brief Recap on Accessibility
 Web Content Accessibility Guidelines (WCAG) is an accepted best practice way of making web content accessible. It's technology agnostic but ultimately presents solutions in HTML, CSS and Javascript. 
 
