@@ -18,7 +18,7 @@ By sticking with regular HTML controls and components  apps are already more acc
 The accessibility statements vendors provide are often so narrowly defined and superficial that the accessibility support provided is extremely limited and, in some instances, non-existent.
 
 **You cant rely on the vendor accessibility conformance claim. If you do use custom controls:**
-* [Independently verify its has accessibility support](https://www.canaxess.com.au/services/audit/)
+* [Independently verify it has accessibility support](https://www.canaxess.com.au/services/audit/)
 * Request information if the controls have been tested with a screen reader
 * Request information if the controls have been tested with a user wtih disabilities
 
@@ -49,3 +49,7 @@ function IDFocus(varID)
 	document.getElementById(varID).focus();
 }
 ````
+By applying this technique to all components which trigger the display of new UI content means the screen focus is always in synch with the content
+
+---
+In need of accessibility support? [reach out to us](https://www.canaxess.com.au/):wave:
