@@ -1,0 +1,15 @@
+@page "/headingfocus"
+@inject IJSRuntime jsRuntime
+
+
+<h1 tabindex="-1" id="@headingID">Focus on heading</h1>
+
+@code 
+{
+    private string headingID = "headingH1";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await jsRuntime.InvokeAsync<object>("IDfocus", headingID);
+    }
+}
