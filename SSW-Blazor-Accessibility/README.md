@@ -31,6 +31,16 @@ The accessibility statements vendors provide are often so narrowly defined and s
 * Request information if the controls have been tested with a screen reader
 * Request information if the controls have been tested with a user wtih disabilities
 
+## Alerting the user audibly
+Provide audible hints through an accessibility technique called a live region used to indicate the status of the change audibly to the screen reader. When content is added to it, the new content is communicated through to the screen reader which announces it so it’s a very convenient way to alert the user that something has changed.
+
+### Use the WCAG 2.1 live region roles for defined message types
+Role | Urgency | What is announced?
+--- | --- | ---
+`role="log"` | Polite | New
+`role="status"` | Polite | Old & New
+`role="alert"` | Assertive | New
+
 ## Reusable Components
 Creating reusable components makes the design consistently repeatable. A component can be created which has a range of parameters that can be set when developing, developers aren’t having to directly code the attributes they're simply setting what type of message to display.
 
