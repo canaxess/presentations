@@ -5,7 +5,7 @@ For those in the know and those not, a11y is a shorthand way for discussing web 
 
 The agenda this evening is
 * Brief recap on accessibility
-* Frankenstein's monster, the DIV button
+* Frankenstein's monster, the `DIV` button
 * 3rd party control suites
 * Aria live regions
 * Managing accessibility in large teams
@@ -132,6 +132,8 @@ Working in large development teams can mean accessibility knowledge becomes dilu
 Screen focus needs to be actively managed in Blazor apps. Use Javascript interop to call Javascript methods which focus onto named elements on the page. Managing focus is a two-way process as well, managing it onto a new view when shown, and managing it back to the original calling element when the view is hidden.
 
 Thanks to Adam, Penny and everyone at SSW for running the user group under very difficult circumstances and thanks for the invite.
-Blazor is no different than any other framework for accessibility, it doesn’t make any web application any more or less accessible, but you still need to actively put in accessibility support. If you're interested in continuing the conversation reach out to me at ross.mullen@canaxess.com.au or on Twitter @MrRossMullen and I've put up a repository on GitHub which contains everything I've spoken about as well as links, and the headingfocus and audiblealert pages and component. Go to github.com/canaxess/presentations and navigate to SSW-Blazor-Accessibility.
+Blazor is no different than any other framework for accessibility, it doesn’t make any web application any more or less accessible, but you still need to actively put in accessibility support. 
+
+If you're interested in continuing the conversation reach out to me at **ross.mullen@canaxess.com.au** or on Twitter [@MrRossMullen](https://twitter.com/MrRossMullen) and I've put up a repository on GitHub which contains everything I've spoken about as well as links, and the headingfocus and audiblealert pages and component. Go to github.com/canaxess/presentations and navigate to **SSW-Blazor-Accessibility**.
 
 Web accessibility isn't necessarily achieving a 100% WCAG 2.1 accessible score, but its introducing more support for users who navigate in non-traditional ways. 
