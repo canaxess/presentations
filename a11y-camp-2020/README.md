@@ -3,7 +3,7 @@ Accessibility testing is hard. How do you upskill team members to understand WCA
 
 I created a checklist which made accessibility testing consistent and removed different interpretations and inaccurate assumptions. When a team's accessibility maturity is low creating a checklist with this methodology results in a testing process anyone can understand.
 
-## Twitter thread 
+## Twitter conversations 
 > It’s become almost subconscious how I accessibility test web sites. But it’s surprisingly difficult to write down or explain, #a11y friends how do you write test cases for screen reader testing for someone new to accessibility? [**@MrRossMullen August 27th 2020**](https://twitter.com/MrRossMullen/status/1298901256337895424?s=20)
 
 > I've read too many articles that describe how to test with a screen reader but not *what* to test. The advice of many articles of "have a play around" is not consistent and can't be documented. This is really good from @WeAreSigma describing the what [**@MrRossMullen August 18th 2020**](https://twitter.com/MrRossMullen/status/1295548417024733185?s=20)
