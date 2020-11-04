@@ -3,10 +3,11 @@ Accessibility testing is hard. How do you upskill team members to understand WCA
 
 I created a checklist which made accessibility testing consistent and removed different interpretations and inaccurate assumptions. When a team's accessibility maturity is low creating a checklist with this methodology results in a testing process anyone can understand.
 
-## WCAG 2.1 AA Checklist fragment
+## WCAG 2.1 AA checklist
+
 | Category  | Success Criterion              | Test                                                                               | 
 |-----------|--------------------------------|------------------------------------------------------------------------------------|
-| Structure | 1.3.1 Info and   Relationships | headings are used to structure content                                           |
+| Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           |
 | Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     |
 | Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 |
 | Structure | 1.3.1 Info and Relationships   | tables have the summary attribute                                                |
