@@ -36,7 +36,7 @@ Working out your own tests helps you begin to understand what can be tested in a
 | Structure | 1.3.1 Info and Relationships   | all HTML5 landmarks have a programmatic name                                     |
 | Links     | 1.3.1 Info and Relationships   | groups of related links use &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;                                     |
 
-## 2. Creating a screen reader testing checklist
+## 2. Creating a compatibility testing checklist
 ### Twitter conversations
 These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards screen reader testing.
 
