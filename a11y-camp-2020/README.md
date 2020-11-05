@@ -37,6 +37,20 @@ Working out your own tests helps you begin to understand what can be tested in a
 | Links     | 1.3.1 Info and Relationships   | groups of related links use &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;                                     |
 
 ## 2. Creating a compatibility testing checklist
+These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
+
+| Test                             | JAWS + IE11 | JAWS + Chrome | JAWS + Edge | JAWS + Firefox | NVDA + IE11 | NVDA + Chrome | NVDA + Edge | NVDA + Firefox |
+|----------------------------------|-------------|---------------|-------------|----------------|-------------|---------------|-------------|----------------|
+| headings make sense              |             |               |             |                |             |               |             |                |
+| headings properly structured     |             |               |             |                |             |               |             |                |
+| links are understandable         |             |               |             |                |             |               |             |                |
+| form labels are understandable   |             |               |             |                |             |               |             |                |
+| required form controls announced |             |               |             |                |             |               |             |                |
+| lists are understandable         |             |               |             |                |             |               |             |                |
+| landmarks are understandable     |             |               |             |                |             |               |             |                |
+| button labels are understandable |             |               |             |                |             |               |             |                |
+| errors are announced             |             |               |             |                |             |               |             |                |
+
 ### Twitter conversations
 These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards screen reader testing.
 
