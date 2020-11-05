@@ -38,7 +38,7 @@ Working out your own tests helps you begin to understand what can be tested in a
 
 ## 2. Creating a screen reader testing checklist
 ### Twitter conversations
-These were conversations I posted to Twitter which resulted in great feedback which helped formulating my approach towards screen reader testing.
+These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards screen reader testing.
 
 [**I asked on August 27th 2020**](https://twitter.com/MrRossMullen/status/1298901256337895424?s=20)
 > It’s become almost subconscious how I accessibility test web sites. But it’s surprisingly difficult to write down or explain, #a11y friends how do you write test cases for screen reader testing for someone new to accessibility?
