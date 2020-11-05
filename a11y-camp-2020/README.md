@@ -11,7 +11,7 @@ For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and d
 
 Success criterion 1.3.1 describes making sure any information and relationship conveyed through presentation is programmatically determinable. Look through the list of sufficient techniques and create a test around the technique.
 
-| Sufficient technique | Test to apply |
+| Sufficient technique | Possible test to apply |
 |:----------------------|:---------------|
 | H97: Grouping related links using the nav element | related links are grouped in &lt;nav&gt; element |
 | H48: Using ol, ul and dl for lists or groups of links | groups of related links use &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt; |
