@@ -40,7 +40,7 @@ Working out your own tests helps you begin to understand what can be tested in a
 These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
 
 | Test                             | JAWS + IE11 | JAWS + Chrome | JAWS + Edge | JAWS + Firefox | NVDA + IE11 | NVDA + Chrome | NVDA + Edge | NVDA + Firefox |
-|----------------------------------|-------------|---------------|-------------|----------------|-------------|---------------|-------------|----------------|
+|:----------------------------------|:-------------|:---------------|:-------------|:----------------|:-------------|:---------------|:-------------|:----------------|
 | headings make sense              |             |               |             |                |             |               |             |                |
 | headings properly structured     |             |               |             |                |             |               |             |                |
 | links are understandable         |             |               |             |                |             |               |             |                |
@@ -52,7 +52,7 @@ These are fixed tests which determine how well the content is rendered in browse
 | errors are announced             |             |               |             |                |             |               |             |                |
 
 ### Twitter conversations
-These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards screen reader testing.
+These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards compatibility testing.
 
 [**I asked on August 27th 2020**](https://twitter.com/MrRossMullen/status/1298901256337895424?s=20)
 > It’s become almost subconscious how I accessibility test web sites. But it’s surprisingly difficult to write down or explain, #a11y friends how do you write test cases for screen reader testing for someone new to accessibility?
