@@ -3,6 +3,13 @@ Accessibility testing is hard. How do you upskill team members to understand WCA
 
 I created a checklist which made accessibility testing consistent and removed different interpretations and inaccurate assumptions. When a team's accessibility maturity is low creating a checklist with this methodology results in a testing process anyone can understand.
 
+**The testing methodology is comprised of three separate checklists:**
+1. A WCAG 2.1 level AA testing checklist
+2. A compatibility testing checklist
+3. A workflow testing checklist
+
+---
+
 ## 1. Creating a WCAG 2.1 AA testing checklist
 ### Instructions
 For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and decide if one or more tests can be identified?
