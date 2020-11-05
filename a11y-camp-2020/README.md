@@ -5,7 +5,7 @@ I created a checklist which made accessibility testing consistent and removed di
 
 ## 1. Creating a WCAG 2.1 AA testing checklist
 ### Instructions
-For each WCAG 2.1 AA success criterion look at the sufficient techniques. Are one or more test identified?
+For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and decide if one or more tests can be identified?
 
 **For example:**
 
