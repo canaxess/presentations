@@ -9,7 +9,7 @@ For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and d
 
 **For example:**
 
-Success criterion 1.3.1 describes making sure any information and relationship conveyed through presentation is programmatically determinable. Look through the list of sufficient techniques and create a test around the technique.
+[Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) describes making sure any information and relationship conveyed through presentation is programmatically determinable. Look through the list of sufficient techniques and create a test around the technique.
 
 | Sufficient technique | Possible test to apply |
 |:----------------------|:---------------|
@@ -17,9 +17,9 @@ Success criterion 1.3.1 describes making sure any information and relationship c
 | H48: Using ol, ul and dl for lists or groups of links | groups of related links use &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt; |
 
 ### Test outcome
-Applying this technique For success criterion 1.3.1 Info and Relationships means 13 individual tests can be identified. Your results may be different and may include fewer or greater tests.
+Applying this technique For [Success Criterion 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) means 13 individual tests can be identified. Your results may be different and may include fewer or greater tests.
 
-Working out your own tests helps you begin to understand what can be tested in a consistent way.
+Working out your own tests helps you begin to understand what types of elements tested in a consistent way.
 | Category  | Success Criterion              | Individal Test                                                                               | 
 |:-----------|:--------------------------------|:------------------------------------------------------------------------------------|
 | Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           |
