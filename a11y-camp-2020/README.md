@@ -46,7 +46,7 @@ Working out your own tests helps you begin to understand what types of elements 
 ## 2. Creating a compatibility testing checklist
 These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
 
-| Test                             | JAWS + IE11 | JAWS + Chrome | JAWS + Edge | JAWS + Firefox | NVDA + IE11 | NVDA + Chrome | NVDA + Edge | NVDA + Firefox |
+| Test                             | JAWS IE11 | JAWS Chrome | JAWS Edge | JAWS Firefox | NVDA IE11 | NVDA Chrome | NVDA Edge | NVDA Firefox |
 |:----------------------------------|:-------------|:---------------|:-------------|:----------------|:-------------|:---------------|:-------------|:----------------|
 | headings make sense              |             |               |             |                |             |               |             |                |
 | headings properly structured     |             |               |             |                |             |               |             |                |
