@@ -67,7 +67,15 @@ These were conversations I posted to Twitter which resulted in great feedback (c
 [**I asked on August 18th 2020**](https://twitter.com/MrRossMullen/status/1295548417024733185?s=20)
 > I've read too many articles that describe how to test with a screen reader but not *what* to test. The advice of many articles of "have a play around" is not consistent and can't be documented. This is really good from @WeAreSigma describing the what
 
-## 3. Workflow text
-This test uses one browser and one screen reader and tests the default path a user may take through the digital service or using a workflow. Results are recorded via bullet points along with any unusual behaviour.
+## 3. Workflow test
+This test uses one browser and one screen reader and tests the default path or workflow a user may take through the digital service. Results are recorded via bullet points along with any unusual behaviour, and is based solely on the audible cues from the screen reader.
+
+### Instructions
+1. Identify a common workflow or path a user may take through the service
+2. Use a browser and screen reader combination which are compatible
+3. Avoid looking at the screen
+4. Record each step and document behaviour
+
+**For example:**
 
 **Test:** Sort all records ascendingly by surname and identify the first record
