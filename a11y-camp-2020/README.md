@@ -32,7 +32,7 @@ Working out your own tests helps you begin to understand what types of elements 
 | Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           |
 | Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     |
 | Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 |
-| Structure | 1.3.1 Info and Relationships   | tables have the summary attribute                                                |
+| Structure | 1.3.1 Info and Relationships   | tables have the `summary` attribute                                                |
 | Structure | 1.3.1 Info and Relationships   | tables use `<th>` elements                                                           |
 | Links     | 1.3.1 Info and Relationships   | related links are grouped in `<nav>` element                                       |
 | Forms     | 1.3.1 Info and Relationships   | labels programmatically associated to input control                              |
