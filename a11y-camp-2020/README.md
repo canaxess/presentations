@@ -33,15 +33,15 @@ Working out your own tests helps you begin to understand what types of elements 
 | Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     |
 | Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 |
 | Structure | 1.3.1 Info and Relationships   | tables have the summary attribute                                                |
-| Structure | 1.3.1 Info and Relationships   | tables use &lt;th&gt; elements                                                           |
-| Links     | 1.3.1 Info and Relationships   | related links are grouped in &lt;nav&gt; element                                       |
+| Structure | 1.3.1 Info and Relationships   | tables use `<th>` elements                                                           |
+| Links     | 1.3.1 Info and Relationships   | related links are grouped in `<nav>` element                                       |
 | Forms     | 1.3.1 Info and Relationships   | labels programmatically associated to input control                              |
 | Forms     | 1.3.1 Info and Relationships   | visually related control are grouped together in a fieldset element              |
 | Forms     | 1.3.1 Info and Relationships   | all fieldset elements have legend element                                        |
 | Forms     | 1.3.1 Info and Relationships   | all radio button and checkbox controls are fully grouped inside fieldset element |
 | Structure | 1.3.1 Info and Relationships   | some HTML5 landmarks are used                                                      |
 | Structure | 1.3.1 Info and Relationships   | all HTML5 landmarks have a programmatic name                                     |
-| Links     | 1.3.1 Info and Relationships   | groups of related links use &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;                                     |
+| Links     | 1.3.1 Info and Relationships   | groups of related links use `<ol>`, `<ul>`, `<dl>`                                     |
 
 ## 2. Creating a compatibility testing checklist
 These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
