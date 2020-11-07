@@ -58,6 +58,8 @@ These are fixed tests which determine how well the content is rendered in browse
 | button labels are understandable |             |               |             |                |             |               |             |                |
 | errors are announced             |             |               |             |                |             |               |             |                |
 
+Each cell records the results of the test **YES**, **NO**, **N/A**. If using Excel the New Comment option on each cell allows a descriptive explanation of the nature of the problem.
+
 ### Twitter conversations
 These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards compatibility testing.
 
