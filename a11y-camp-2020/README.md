@@ -24,7 +24,7 @@ For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and d
 | H48: Using ol, ul and dl for lists or groups of links | groups of related links use `<ol>`, `<ul>`, `<dl>` |
 
 ### Test outcome
-Applying this technique For [Success Criterion 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) means 13 individual tests can be identified. Your results may be different and may include fewer or greater tests.
+Applying this technique For [Success Criterion 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) means at least 13 individual tests can be identified. Your results may be different and may include fewer or greater tests.
 
 Working out your own tests helps you begin to understand what types of elements can be tested in a consistent way.
 | Category  | Success Criterion              | Individal Test                                                                               | 
