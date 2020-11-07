@@ -58,16 +58,7 @@ These are fixed tests which determine how well the content is rendered in browse
 | button labels are understandable |             |               |             |                |             |               |             |                |
 | errors are announced             |             |               |             |                |             |               |             |                |
 
-Each cell records the results of the test **YES**, **NO**, **N/A**. If using Excel the New Comment option on each cell allows a descriptive explanation of the nature of the problem.
-
-### Twitter conversations
-These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards compatibility testing.
-
-[**I asked on August 27th 2020**](https://twitter.com/MrRossMullen/status/1298901256337895424?s=20)
-> It’s become almost subconscious how I accessibility test web sites. But it’s surprisingly difficult to write down or explain, #a11y friends how do you write test cases for screen reader testing for someone new to accessibility?
-
-[**I asked on August 18th 2020**](https://twitter.com/MrRossMullen/status/1295548417024733185?s=20)
-> I've read too many articles that describe how to test with a screen reader but not *what* to test. The advice of many articles of "have a play around" is not consistent and can't be documented. This is really good from @WeAreSigma describing the what
+Each cell records the result of the test **YES**, **NO**, **N/A**. If using Excel the New Comment option on each cell allows a descriptive explanation of the nature of the problem.
 
 ## 3. Creating a workflow test
 This test uses one browser and one screen reader and tests the default path or workflow a user may take through the digital service. 
@@ -83,3 +74,13 @@ Results are recorded via bullet points along with any unusual behaviour, and is 
 **For example:**
 
 **Test:** Sort all records ascendingly by surname and identify the first record
+
+## Resources
+### Twitter conversations
+These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards compatibility testing.
+
+[**I asked on August 27th 2020**](https://twitter.com/MrRossMullen/status/1298901256337895424?s=20)
+> It’s become almost subconscious how I accessibility test web sites. But it’s surprisingly difficult to write down or explain, #a11y friends how do you write test cases for screen reader testing for someone new to accessibility?
+
+[**I asked on August 18th 2020**](https://twitter.com/MrRossMullen/status/1295548417024733185?s=20)
+> I've read too many articles that describe how to test with a screen reader but not *what* to test. The advice of many articles of "have a play around" is not consistent and can't be documented. This is really good from @WeAreSigma describing the what
