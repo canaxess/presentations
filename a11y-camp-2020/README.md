@@ -51,9 +51,9 @@ If a page has a heading structure:
 <h1>Heading 1</h1>
 <h5>Heading 5</h5>
 ```
-* It will **pass** the test headings are used to structure content
-* It will **fail** the test headings are correctly applied
-* Be recorded as a **fail** against 1.3.1 Info and Relationships 
+* It will **pass** the test 'headings are used to structure content'
+* It will **fail** the test 'headings are correctly applied'
+* Be recorded as a **fail** against Success Criterion 1.3.1 Info and Relationships 
 
 Whilst headings are applied, they haven't been applied _correctly_. As the two tests reside under the one success criterion it's recorded as a failure overall.
 
