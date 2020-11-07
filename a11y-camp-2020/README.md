@@ -27,21 +27,21 @@ For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and d
 Applying this technique For [Success Criterion 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships) means at least 13 individual tests can be identified. Your results may be different and may include fewer or greater tests.
 
 Working out your own tests helps you begin to understand what types of elements can be tested in a consistent way.
-| Category  | Success Criterion              | Individal Test                                                                               | 
-|:-----------|:--------------------------------|:------------------------------------------------------------------------------------|
-| Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           |
-| Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     |
-| Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 |
-| Structure | 1.3.1 Info and Relationships   | tables have the `summary` attribute                                                |
-| Structure | 1.3.1 Info and Relationships   | tables use `<th>` elements                                                           |
-| Links     | 1.3.1 Info and Relationships   | related links are grouped in `<nav>` element                                       |
-| Forms     | 1.3.1 Info and Relationships   | labels programmatically associated to input control                              |
-| Forms     | 1.3.1 Info and Relationships   | visually related control are grouped together in a fieldset element              |
-| Forms     | 1.3.1 Info and Relationships   | all fieldset elements have legend element                                        |
-| Forms     | 1.3.1 Info and Relationships   | all radio button and checkbox controls are fully grouped inside fieldset element |
-| Structure | 1.3.1 Info and Relationships   | some HTML5 landmarks are used                                                      |
-| Structure | 1.3.1 Info and Relationships   | all HTML5 landmarks have a programmatic name                                     |
-| Links     | 1.3.1 Info and Relationships   | groups of related links use `<ol>`, `<ul>`, `<dl>`                                     |
+| Category  | Success Criterion              | Individal Test                                                                               | Page1 URL | 
+|:-----------|:--------------------------------|:------------------------------------------------------------------------------------|:------------------|
+| Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           | YES | 
+| Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     | NO |
+| Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 | YES |
+| Structure | 1.3.1 Info and Relationships   | tables have the `summary` attribute                                                | YES |
+| Structure | 1.3.1 Info and Relationships   | tables use `<th>` elements                                                           | YES |
+| Links     | 1.3.1 Info and Relationships   | related links are grouped in `<nav>` element                                       | YES |
+| Forms     | 1.3.1 Info and Relationships   | labels programmatically associated to input control                              | YES |
+| Forms     | 1.3.1 Info and Relationships   | visually related control are grouped together in a fieldset element              | YES  |
+| Forms     | 1.3.1 Info and Relationships   | all fieldset elements have legend element                                        | YES  |
+| Forms     | 1.3.1 Info and Relationships   | all radio button and checkbox controls are fully grouped inside fieldset element | YES  |
+| Structure | 1.3.1 Info and Relationships   | some HTML5 landmarks are used                                                      | YES  |
+| Structure | 1.3.1 Info and Relationships   | all HTML5 landmarks have a programmatic name                                     | YES  |
+| Links     | 1.3.1 Info and Relationships   | groups of related links use `<ol>`, `<ul>`, `<dl>`                                     | YES  |
 
 ## 2. Creating a compatibility testing checklist
 These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
