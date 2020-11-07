@@ -28,7 +28,7 @@ Applying this technique For [Success Criterion 1.3.1 Info and Relationships](htt
 
 Working out your own tests helps you begin to understand what types of elements can be tested in a consistent way.
 | Category  | Success Criterion              | Individal Test                                                                               | Page1 URL | 
-|:-----------|:--------------------------------|:------------------------------------------------------------------------------------|:------------------|
+|:-----------|:--------------------------------|:------------------------------------------------------------------------------------|:------------------:|
 | Structure | 1.3.1 Info and Relationships | headings are used to structure content                                           | YES | 
 | Structure | 1.3.1 Info and Relationships   | headings are correctly applied                                                     | NO |
 | Structure | 1.3.1 Info and Relationships   | tables are used for tabular data                                                 | YES |
