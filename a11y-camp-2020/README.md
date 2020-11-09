@@ -81,9 +81,7 @@ Each cell records the result of the test **YES**, **NO**, **N/A**. If using Exce
 ## 3. Creating a workflow test
 **Scope**: One workflow which may include several pages
 
-This test uses one browser and one screen reader and tests the default path or workflow a user may take through the digital service. 
-
-Results are recorded via bullet points along with any unusual behaviour, and is based **solely on the audible cues from the screen reader**.
+This test uses one browser and one screen reader and tests the default path or workflow a user may take through the digital service. Results are recorded via bullet points along with any unusual behaviour, and is based **solely on the audible cues from the screen reader**.
 
 ### Instructions
 1. Identify a common workflow or path a user may take through the service
