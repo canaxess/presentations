@@ -11,6 +11,8 @@ I created a checklist which made accessibility testing consistent and removed di
 ---
 
 ## 1. Creating a WCAG 2.1 AA testing checklist
+**Scope**: Individual Pages
+
 ### Instructions
 For all 50 WCAG 2.1 AA success criterion look at the sufficient techniques and decide if one or more tests can be identified?
 
@@ -44,7 +46,7 @@ Working out your own tests helps you begin to understand what types of elements 
 | Links     | 1.3.1 Info and Relationships   | groups of related links use `<ol>`, `<ul>`, `<dl>`                                     | YES  |
 
 ### Example
-If a page has a heading structure:
+If a page has the following heading structure:
 ```html
 <h2>Heading 2</h2>
 <h4>Heading 4</h4>
@@ -58,7 +60,9 @@ If a page has a heading structure:
 Whilst headings are applied, they haven't been applied _correctly_. As the two tests reside under the one success criterion it's recorded as a failure overall.
 
 ## 2. Creating a compatibility testing checklist
-These are fixed tests which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
+**Scope**: All representative pages
+
+These are fixed tests covering all representative pages in the site sample which determine how well the content is rendered in browser and screen reader combinations, any irregularities are recorded in each cell. Browser and screen reader combinations need to be tailored for your circumstances.
 
 | Test                             | JAWS IE11 | JAWS Chrome | JAWS Edge | JAWS Firefox | NVDA IE11 | NVDA Chrome | NVDA Edge | NVDA Firefox |
 |:----------------------------------|:-------------|:---------------|:-------------|:----------------|:-------------|:---------------|:-------------|:----------------|
@@ -75,6 +79,8 @@ These are fixed tests which determine how well the content is rendered in browse
 Each cell records the result of the test **YES**, **NO**, **N/A**. If using Excel the New Comment option on each cell allows a descriptive explanation of the nature of the problem.
 
 ## 3. Creating a workflow test
+**Scope**: One workflow which may include several pages
+
 This test uses one browser and one screen reader and tests the default path or workflow a user may take through the digital service. 
 
 Results are recorded via bullet points along with any unusual behaviour, and is based **solely on the audible cues from the screen reader**.
