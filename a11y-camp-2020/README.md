@@ -59,6 +59,9 @@ If a page has the following heading structure:
 
 Whilst headings are applied, they haven't been applied _correctly_. As the two tests reside under the one success criterion it's recorded as a failure overall.
 
+### How to test
+Looking through the HTML source code is slow. Javascript/JQuery bookmarklets make it quicker to identify only the sections you need to test.
+
 ## 2. Creating a compatibility testing checklist
 **Scope**: All representative pages
 
