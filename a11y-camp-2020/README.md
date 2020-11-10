@@ -93,6 +93,18 @@ This test uses one browser and one screen reader and tests the default path or w
 
 **Test:** Sort all records ascendingly by surname and identify the first record
 
+**Steps**
+1. Navigate to table
+2. Navigate to 'surname' column
+3. Activate sort control and sort ascendingly
+4. Identify the first record in the table
+
+**Result**
+* Have identified 'surname' column
+* Can activate sort control 
+* Sort direction applied isn't announced
+* Insufficient guidance with how to re-sort column
+
 ## Resources
 ### Twitter conversations
 These were conversations I posted to Twitter which resulted in great feedback (click through to read) which helped formulate my approach towards compatibility testing.
