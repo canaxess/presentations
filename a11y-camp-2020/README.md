@@ -82,8 +82,8 @@ function accessify(){
 
 **To create your own bookmarklets**
 
-* [Create Bookmarklets - The Right Way]https://code.tutsplus.com/tutorials/create-bookmarklets-the-right-way--net-18154
-* https://caiorss.github.io/bookmarklet-maker/
+* [Create Bookmarklets - The Right Way](https://code.tutsplus.com/tutorials/create-bookmarklets-the-right-way--net-18154)
+* [https://caiorss.github.io/bookmarklet-maker/](Bookmarklet Maker)
 
 ## 2. Creating a compatibility testing checklist
 **Scope**: All representative pages
