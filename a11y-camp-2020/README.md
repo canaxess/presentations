@@ -126,10 +126,11 @@ This test uses one browser and one screen reader and tests the default path or w
 4. Identify the first record in the table
 
 **Result**
-* Have identified 'surname' column
+* Can identify 'surname' column
 * Can activate sort control 
-* Sort direction applied isn't announced
-* Insufficient guidance with how to re-sort column
+* Applied sort direction is unannounced
+* Insufficient guidance how to re-sort column
+* Can identify first record
 
 ## Resources
 ### Twitter conversations
