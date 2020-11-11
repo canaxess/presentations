@@ -60,7 +60,7 @@ If a page has the following heading structure:
 Whilst headings are applied, they haven't been applied _correctly_. As the two tests reside under the one success criterion it's recorded as a failure overall.
 
 ### How to test
-Looking through the HTML source code is slow. Applying Javascript/JQuery bookmarklets make it quicker to identify only the sections you need to test.
+Looking through the HTML source is slow. Applying Javascript/JQuery bookmarklets make it quicker to identify only the sections you need to test.
 
 **e.g. to apply a red 2px solid line to all heading elements**: [Highlight all headings bookmarklet](https://canaxess.github.io/presentations/a11y-camp-2020/)
 ```javascript
