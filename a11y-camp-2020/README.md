@@ -62,7 +62,7 @@ Whilst headings are applied, they haven't been applied _correctly_. As the two t
 ### How to test
 Looking through the HTML source code is slow. Applying Javascript/JQuery bookmarklets make it quicker to identify only the sections you need to test.
 
-**Apply a red 2px solid line to all heading elements**: Highlight all headings bookmarklet
+**Apply a red 2px solid line to all heading elements**: [Highlight all headings bookmarklet](https://canaxess.github.io/presentations/a11y-camp-2020/)
 ```javascript
 $('h1,h2,h3,h4,h5,h6').css('outline','2px solid red')
 ```
