@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+To use:
+Click and drag the below link to the browser address bar
+
+<a href="javascript:(function()%7Bif%20(!(%24%20%3D%20window.jQuery))%20%7B%20%2F%2F%20typeof%20jQuery%3D%3D'undefined'%20works%20too%0A%20%20%20%20script%20%3D%20document.createElement(%20'script'%20)%3B%0A%20%20%20script.src%20%3D%20'http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1%2Fjquery.min.js'%3B%20%0A%20%20%20%20script.onload%3Daccessify%3B%0A%20%20%20%20document.body.appendChild(script)%3B%0A%7D%20%0Aelse%20%7B%0A%20%20%20%20accessify()%3B%0A%7D%0A%20%0Afunction%20accessify()%20%7B%0A%24('h1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6').css('outline'%2C'2px%20solid%20red')%3B%0A%7D%7D)()%3B">Highlight all page headings - Bookmarklet</a>
+
+</body>
+
+</html>
